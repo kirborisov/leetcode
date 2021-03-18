@@ -18,7 +18,7 @@ class Solution:
         
         # Constraints
         if not (s_nums[len_s_nums-1] >= -2**31 and s_nums[0] <= (2**31) - 1):
-            return None 
+            return False 
         
         if len_s_nums < 3:
             return max(s_nums)
